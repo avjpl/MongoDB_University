@@ -1,0 +1,19 @@
+<form class="movie_entry" action="/movies" method="post">
+  <fieldset>
+    <legend>Movie Entry</legend>
+    <p class="movie_entry__input_group">
+      <label class="movie_entry__label" for="title">Title</label>
+      <input class="movie_entry__input" type="text" name="title" id="title" required />
+    </p>
+    <p class="movie_entry__input_group">
+      <label class="movie_entry__label" for="year">Year</label>
+      <input class="movie_entry__input" type="text" name="year" id="year" required />
+    </p>
+    <p class="movie_entry__input_group">
+      <label class="movie_entry__label" for="imdb">IMDB</label>
+      <input class="movie_entry__input" type="text" name="imdb" id="imdb" required />
+    </p>
+
+    <button class="movie_entry__button" type="submit">Add Movie</button>
+  </fieldset>
+</form>
